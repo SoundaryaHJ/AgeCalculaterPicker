@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="280dp"
+        android:layout_height="49dp"
+        android:gravity="center"
+        android:text="Calculate Your Age"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/birthDate"
+        android:layout_width="219dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:drawableEnd="@drawable/arrow"
+        android:drawableRight="@drawable/arrow"
+        android:hint="Enter Birth Date"
+        android:textColor="@color/teal_700"
+        android:textSize="18dp"
+        app:backgroundTint="@color/white" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="118dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="To"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/currentDate"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:drawableEnd="@drawable/arrow"
+        android:drawableRight="@drawable/arrow"
+        android:hint=" Today's  Date"
+        android:textColor="@color/teal_700"
+        android:textSize="18dp"
+        app:backgroundTint="@color/white" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="203dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Calculate"
+        app:backgroundTint="@color/teal_700" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="323dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+</LinearLayout>
